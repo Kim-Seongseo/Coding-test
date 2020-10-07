@@ -17,8 +17,7 @@ void bfs(int v){
     q.push(v);
     visited[v] = 1;
     printf("%d ", v);
-    while(q.
-    empty() == false){
+    while(q.empty() == false){
         int t = q.front();
         q.pop();
         for(int i=1; i<=7; i++){
